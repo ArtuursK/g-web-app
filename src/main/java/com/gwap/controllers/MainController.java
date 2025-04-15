@@ -15,4 +15,9 @@ public class MainController {
         return "index";
     }
 
+    @RequestMapping(value = "/app")
+    public String getApp() {
+        return "app";
+    }
+
 }
