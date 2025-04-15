@@ -20,4 +20,9 @@ public class MainController {
         return "app";
     }
 
+    @RequestMapping(value = "/app2")
+    public String getApp2() {
+        return "app2";
+    }
+
 }
