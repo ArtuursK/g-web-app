@@ -22,4 +22,16 @@ public class MainController {
     public String getTest2() {
         return "test2";
     }
+
+    @RequestMapping(value = "/app")
+    public String getApp() {
+        return "app";
+    }
+
+    @RequestMapping(value = "/app2")
+    public String getApp2() {
+        return "app2";
+    }
+
+
 }
