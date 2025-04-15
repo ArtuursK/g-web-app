@@ -10,9 +10,12 @@ public class MainController {
 
     @RequestMapping(value = "/")
     public String getRoot() {
-        //TODO: get posts from db
-        //TODO: add post list to page
         return "index";
+    }
+
+    @RequestMapping(value = "/test")
+    public String getTest() {
+        return "test";
     }
 
 }
