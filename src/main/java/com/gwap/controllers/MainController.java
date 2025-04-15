@@ -18,4 +18,8 @@ public class MainController {
         return "test";
     }
 
+    @RequestMapping(value = "/test2")
+    public String getTest2() {
+        return "test2";
+    }
 }
